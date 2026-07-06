@@ -1,0 +1,176 @@
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+   list-style: none;
+   scroll-behavior: smooth;
+}
+
+#grid {display: grid;
+grid-template-columns: 15%  85% ;
+grid-template-rows: 12vh 350vh 28vh ;
+}
+.a{
+ background-color: rgb(34, 34, 33);
+min-height: 100vh;
+grid-column-end: 2;
+position: sticky;
+top: 0;
+align-items: center;
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+}
+#logo{
+    padding-top: 30px ;
+    padding-left: 30px;
+     width: 230px;
+     height: 130px;
+    }
+#meio{
+    padding-top: 120px;
+     line-height: 65px;
+     font-size: 21px;
+    color: rgb(243, 243, 243);
+     text-align: center;
+    img{
+    padding-top: 50px;
+    height: 60px;
+    width: 60px;
+    padding-bottom: 110px;
+        }
+    input{
+        height: 50px;
+       padding-left: 10px;
+        width: 220px;
+        color: white;
+        border: 0;
+        font-size: 19px;
+        border-radius: 30px;
+        background-color: rgba(96, 98, 100, 0.664);
+    }
+    }
+header a:hover{
+    color: rgb(216, 4, 4) ;
+
+    }
+.b
+{ background-color: rgb(0, 0, 0);
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding-top: 27px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+       }    
+    span{
+        color: red;
+    }
+    header a:hover{
+        color: rgb(255, 0, 0) ;
+    
+        }
+}
+
+#cadastro{
+   padding-left: 1300px;
+   font-size: 27px;
+   text-align: center;
+   li{
+    padding: 12px;
+   }
+   
+}
+.c
+{ background-color: rgb(49, 46, 41);
+}
+.d
+{   background-color: rgb(65, 65, 73);
+    span {color: red;
+    font-size: 48px;}
+    
+    
+}
+#imgprincipal{
+    filter: blur(3px);
+    object-fit: cover;
+    position: relative;
+  
+}
+.f{  
+    background-color: rgb(34, 32, 32) ;
+   
+
+}
+#rodape{
+    display: grid;
+    grid-template-columns: 18% 18% 32% 25%;
+    grid-template-rows:18vh 10vh  ;
+    color: white;
+    a{ 
+        padding: 20px;
+    }
+}
+#icons{
+    text-align: center;
+    svg{
+        width: 35px;
+    }
+}
+
+.text{
+    font-size: 22px;
+    text-align: left;
+    padding-top: 7vh;
+}
+ .t{
+ padding: 5px;
+ }
+ .t1{
+    
+ font-size: 30px;
+ }
+.t2{
+   font-size: 110px;
+}
+.img2{
+   
+    
+
+
+}
+.mdiv{
+    color: white;
+    background-image: url('mahmoud-fawzy-EqoCUzG9200-unsplash.jpg'); 
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+   
+    
+    li{
+  
+        padding-bottom: 30%;
+        padding-left: 20;
+
+    }
+    
+}
+#teteu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50vh;
+    margin-left: 20vh;}
+
+
+
+
+
